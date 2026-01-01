@@ -9,7 +9,15 @@
 	"compatibility_date": "2026-01-01",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"compatibility_flags": ["nodejs_compat"],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "gendb",
+			"database_id": "578bf70b-197b-4c47-9b23-f61953a425fe"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
